@@ -17,7 +17,7 @@ import ScrollToTop from './components/ScrollToTop';
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename="/mamabaton-app-1770637778">
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Layout />}>
